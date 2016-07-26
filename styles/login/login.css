@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	font-family: "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	font-size: 14px;
+	color: #333;
+	line-height: 150%;
+	background:#F3F1F4;
+	}
+.login_container{
+	position:relative;
+	height:337px;
+	margin: 30px auto 30px;
+	position: relative;
+	background:#fff;
+	border-top:2px solid #b10000;
+	border-bottom:1px solid #e2e2e2;
+	}
+.register_container{
+	background:#fff;
+	margin: 30px auto 30px;
+	position: relative;
+	border:1px solid #e2e2e2;
+	}
+.register_container .regForm {
+	border: 0 none;
+	margin: 40px 0;
+	}
+.login_container .regForm{
+	margin:52px 0;
+	float:right;
+	}
+.login_container .regForm p.inputs {
+	overflow:hidden;
+	}
+.login_container .regForm p.inputs a{
+	color:#333;
+	}
+.login_container .regForm p.inputs a:hover{
+	color:#b10000;
+	text-decoration:none;
+	}
+.login_container .regForm p.inputs .label{
+	float:left;
+	width:100px;
+	height:37px;
+	line-height:37px;
+	text-align:right;
+	}
+.btnLoginDeep{
+	margin-left:80px;
+	}
+.res_p{
+	text-align:center;
+	padding:30px 0;
+	border-top: 1px dashed #e3e3e3;
+	}
+a.cor_red{
+	color:#b10000;
+	}
+.cor_red{
+	color:#b10000;
+	text-decoration:underline;
+	}
+.regForm p.inputs {
+	overflow:hidden;
+	}
+.regForm p.inputs a{
+	color:#333;
+	}
+.regForm p.inputs a:hover{
+	color:#b10000;
+	text-decoration:none;
+	}
+.regForm p.inputs .label{
+	float:left;
+	width:390px;
+	height:37px;
+	line-height:37px;
+	text-align:right;
+	}
+.regForm .ipt {
+	float:left;
+	width: 260px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	padding-left: 10px;
+	border: 1px solid #BFBDBF;
+	border-radius: 3px;
+	background-color: white;
+	}
+.regForm .iptSmall{
+	width: 100px;
+	}
+.regForm .ipt.error {
+	border-color: #b10000;
+	}
+.regForm .ipt.on{
+	border-color: #7f7e89;
+	}
+.regForm p.tips {
+	padding-left:390px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	}
+.dred {
+	color: #b10000;
+	}
+.regForm .verifyCode {
+	line-height: 35px;
+	height: 35px;
+	border: solid 1px #D7D6D8;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	margin-left:5px;
+	}
+.regForm .changeCode {
+	line-height: 35px;
+	height: 35px;
+	font-size: 12px;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	color: #333;
+	margin-left:5px;
+	}
+span.checkbox {
+	overflow: hidden;
+	zoom: 1;
+	position: relative;
+	color: #666;
+	font-size: 12px;
+	line-height: 16px;
+	}
+.regForm p.inputs a.red {
+	color: #b10000;
+	}
+.mb30 {
+	margin-bottom: 10px;
+	}
+.btn {
+	width: 140px;
+	height: 40px;
+	cursor: pointer;
+	line-height: 40px;
+	background:#d4282a;
+	border-radius:5px;
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: white;
+	}
+.btn:hover{
+	background:#E4393C;
+	}
+.btnReg{
+	margin-left:380px;
+	}
+.mb30 a{
+	color:#fff;
+	}
+.mb30 a:hover{
+	text-decoration:none;
+	}
+.mb38{
+	padding-bottom:30px;
+	text-align:right;
+	margin-right:38px;
+	}
+a.forget_pwd{
+	font-size:12px;
+	color:#666;
+	}
+a.forget_pwd:hover{
+	color:#b10000;
+	text-decoration:none;
+	}
+.lgray{
+	font-size:12px;
+	color:#b3b3b3;
+	}
+a.regLink {
+	font-size: 12px;
+	color: #b10000;
+	position: relative;
+	}
+a.regLink:hover{
+	color:#b10000;
+	text-decoration:underline;
+	}
